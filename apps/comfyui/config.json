@@ -19,7 +19,7 @@
       {
         "type": "text",
         "label": "Ollama Models Path (optional)",
-        "placeholder": "/home/user/.ollama/models",
+        "placeholder": "/usr/share/ollama/.ollama/models",
         "env_variable": "OLLAMA_MODELS_PATH",
         "required": false
       },
