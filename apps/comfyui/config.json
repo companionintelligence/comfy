@@ -33,7 +33,7 @@
       {
         "type": "boolean",
         "label": "Enable GPU",
-        "default": true,
+        "default": false,
         "env_variable": "COMFYUI_ENABLE_GPU",
         "required": false
       }

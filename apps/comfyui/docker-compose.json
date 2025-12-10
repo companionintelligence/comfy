@@ -14,11 +14,19 @@
         },
         {
           "key": "COMFYUI_ENABLE_GPU",
-          "value": "${COMFYUI_ENABLE_GPU}"
+          "value": "false"
         },
         {
           "key": "OLLAMA_MODELS_PATH",
           "value": "${OLLAMA_MODELS_PATH}"
+        },
+        {
+          "key": "CUDA_VISIBLE_DEVICES",
+          "value": ""
+        },
+        {
+          "key": "EXTRA_ARGS",
+          "value": "--cpu"
         }
       ],
       "volumes": [
