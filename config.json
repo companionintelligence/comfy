@@ -1,0 +1,45 @@
+{
+    "$schema": "../app-info-schema.json",
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "port": 8188,
+    "available": true,
+    "exposable": true,
+    "dynamic_config": true,
+    "tipi_version": 1,
+    "version": "latest",
+    "categories": ["ai", "development"],
+    "description": "A powerful and modular stable diffusion GUI and backend. ComfyUI provides a node-based interface for creating complex workflows.",
+    "short_desc": "Powerful node-based stable diffusion workflow interface",
+    "author": "ComfyUI Contributors",
+    "source": "https://github.com/comfyanonymous/ComfyUI",
+    "website": "https://github.com/comfyanonymous/ComfyUI",
+    "supported_architectures": ["amd64", "arm64"],
+    "form_fields": [
+      {
+        "type": "text",
+        "label": "Ollama Models Path (optional)",
+        "placeholder": "/home/user/.ollama/models",
+        "env_variable": "OLLAMA_MODELS_PATH",
+        "required": false
+      },
+      {
+        "type": "text",
+        "label": "Extra Model Paths (optional)",
+        "placeholder": "/path/to/models",
+        "env_variable": "COMFYUI_EXTRA_MODEL_PATHS",
+        "required": false
+      },
+      {
+        "type": "boolean",
+        "label": "Enable GPU",
+        "default": true,
+        "env_variable": "COMFYUI_ENABLE_GPU",
+        "required": false
+      }
+    ],
+    "created_at": 1691943801422,
+    "updated_at": 1691943801422,
+    "min_tipi_version": "4.5.0"
+  }
+  
